@@ -1,17 +1,12 @@
 {
-  "name": "NetChecker",
-  "version": "1.0.0",
+  "name": "netchecker",
+  "version": "2.0.0-beta.5",
   "private": true,
   "dependencies": {
-    "cordova-android": "^8.1.0",
-    "cordova-browser": "^6.0.0",
-    "cordova-ios": "4.2.0",
-    "cordova-windows": "4.4.2"
+    "cordova-browser": "^6.0.0"
   },
   "cordova": {
     "platforms": [
-      "ios",
-      "windows",
       "browser",
       "android"
     ],
@@ -23,6 +18,7 @@
     }
   },
   "devDependencies": {
+    "cordova-android": "^9.0.0",
     "cordova-plugin-app-version": "^0.1.9",
     "cordova-plugin-globalization": "~1.11.0",
     "cordova-plugin-inappbrowser": "^4.0.0",
