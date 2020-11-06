@@ -79,7 +79,7 @@ let app = new Vue({
             console.log('retry called');
             app.status = 'pending';
             checkStatus('https://google.com').then(status => {
-                app.status = status == 200 ? 'success' : 'fail';
+                app.status = status >= 200 && status < 300 ? 'success' : 'fail';
             }).catch(() => {
                 app.status = 'fail';
             });
