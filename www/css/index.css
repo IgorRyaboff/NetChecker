@@ -16,3 +16,9 @@
 #checkResult{
     font-size: 2.8rem;
 }
+
+#github_lnk {
+    filter: invert(100%) sepia(0%) saturate(4438%) hue-rotate(152deg) brightness(127%) contrast(65%);
+    width: 32px;
+    height: 32px;
+}

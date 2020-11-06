@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="1" defaultlocale="ru-RU" id="ru.igorryaboff.netchecker" version="2.0.0-beta.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
+<widget android-versionCode="1" defaultlocale="ru-RU" id="ru.igorryaboff.netchecker" version="2.0.0-beta.4" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:vs="http://schemas.microsoft.com/appx/2014/htmlapps">
     <name>NetChecker</name>
     <description>Simple internet connection checker</description>
     <author href="https://vk.com/igorryaboff">Igor Ryabov</author>

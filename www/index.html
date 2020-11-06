@@ -15,7 +15,7 @@
         <div><span id="startChecking" @click="retry"><img src="images/update-arrows.png" /> <span id="refreshText">{{ formattedRefreshText }}</span></span></div>
 
         <div style="position: fixed; bottom: 2px; left: 0; right: 0; text-align: center;color: grey">
-            <img src="images/github-logo.svg" style="width: 32px; height: 32px;" @click="openGitHub"/>
+            <img id="github_lnk" src="images/github-logo.svg" @click="openGitHub"/>
             <div>{{ appVersionPrefix }} {{ appVersion }}</div>
         </div>
     </div>
